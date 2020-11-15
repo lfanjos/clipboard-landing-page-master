@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Bai Jamjuree", sans-serif;
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+
+body {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 2rem 0;
+  color: hsl(210, 10%, 33%);
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  padding: 1.1rem 2rem;
+  margin: 0 0.5rem;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 2px 1px hsl(171, 65%, 36%);
+  cursor: pointer;
+}
+
+.btn-blue {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 2px 1px hsl(233, 62%, 58%);
+}
+
+.main-header {
+  margin-bottom: 10rem;
+}
+
+.main-header img {
+  height: 10rem;
+}
+
+.wrapper1 {
+  display: flex;
+}
+
+.qualities-section {
+  margin-bottom: 10rem;
+}
+
+.qualities-section-topics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  text-align: left;
+  margin-left: 10rem;
+}
+
+.devices-section {
+  margin-bottom: 10rem;
+}
+
+.devices-section img {
+  margin-top: 6rem;
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: left;
+  margin: 8rem;
+}
+
+.service-card {
+  margin: 2rem;
+  flex: 1;
+}
+
+.service-card img {
+  width: 44px;
+  height: 40px;
+  object-fit: scale-down;
+}
+
+.logo-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15rem;
+}
+
+.logo-gallery img {
+  align-self: center;
+}
+
+.download-section {
+  margin-bottom: 15rem;
+}
+
+.footer {
+  background-color: rgba(211, 211, 211, 0.226);
+  border-top: 1px solid rgba(202, 202, 202, 0.486);
+}
+
+.wrapper3 {
+  display: flex;
+  align-items: center;
+  margin: 3rem;
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 60px;
+  width: 60%;
+}
+
+.menu-items {
+  margin: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.social-icons {
+  display: flex;
+  width: 15%;
+  margin-right: 3rem;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 2rem;
+  font-size: 2.5rem;
+  color: hsl(210, 10%, 33%);
+}
+
+.footer img {
+  height: 4rem;
+  margin: 0 3rem;
+}
+
+.footer p {
+  margin: 0;
+}

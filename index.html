@@ -10,7 +10,16 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/864872c2f6.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Frontend Mentor | Clipboard landing page</title>
   </head>
   <body>
@@ -20,10 +29,11 @@
 
       <p>
         Clipboard allows you to track and organize everything you copy.
-        Instantly access your clipboard on all your devices.
+        Instantly <br />
+        access your clipboard on all your devices.
       </p>
-      <button class="default-button">Download for iOS</button>
-      <button class="default-button">Download for Mac</button>
+      <button class="btn">Download for iOS</button>
+      <button class="btn btn-blue">Download for Mac</button>
     </header>
     <main class="main-content">
       <div class="qualities-section">
@@ -31,37 +41,42 @@
 
         <p>
           Clipboard instantly stores any item you copy in the cloud, meaning you
-          can access your snippets immediately on all your devices. Our Mac and
-          iOS apps will help you organize everything.
+          can access <br />
+          your snippets immediately on all your devices. Our Mac and iOS apps
+          will help you <br />
+          organize everything.
         </p>
-        <div class="qualities-section-image">
-          <img src="/images/image-computer.png" alt="computer" />
-        </div>
-        <div class="qualities-section-topics">
-          <h3>Quick Search</h3>
+        <div class="wrapper1">
+          <div class="qualities-section-image">
+            <img src="/images/image-computer.png" alt="computer" />
+          </div>
+          <div class="qualities-section-topics">
+            <h3>Quick Search</h3>
 
-          <p>
-            Easily search your snippets by content, category, web address,
-            application, and more.
-          </p>
+            <p>
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
 
-          <h3>iCloud Sync</h3>
+            <h3>iCloud Sync</h3>
 
-          <p>Instantly saves and syncs snippets across all your devices.</p>
+            <p>Instantly saves and syncs snippets across all your devices.</p>
 
-          <h3>Complete History</h3>
+            <h3>Complete History</h3>
 
-          <p>
-            Retrieve any snippets from the first moment you started using the
-            app.
-          </p>
+            <p>
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
         </div>
       </div>
       <div class="devices-section">
         <h2>Access Clipboard anywhere</h2>
         <p>
           Whether you’re on the go, or at your computer, you can access all your
-          Clipboard snippets in a few simple clicks.
+          Clipboard <br />
+          snippets in a few simple clicks.
         </p>
         <img src="/images/image-devices.png" alt="devices" />
       </div>
@@ -69,23 +84,33 @@
         <h2>Supercharge your workflow</h2>
 
         <p>We’ve got the tools to boost your productivity.</p>
+        <div class="wrapper2">
+          <div class="service-card">
+            <img src="/images/icon-blacklist.svg" alt="" />
+            <h3>Create blacklists</h3>
 
-        <h3>Create blacklists</h3>
+            <p>
+              Ensure sensitive information never makes its way to your clipboard
+              by excluding certain sources.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="/images/icon-text.svg" alt="" />
+            <h3>Plain text snippets</h3>
 
-        <p>
-          Ensure sensitive information never makes its way to your clipboard by
-          excluding certain sources.
-        </p>
+            <p>
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="/images/icon-preview.svg" alt="" />
+            <h3>Sneak preview</h3>
 
-        <h3>Plain text snippets</h3>
-
-        <p>
-          Remove unwanted formatting from copied text for a consistent look.
-        </p>
-
-        <h3>Sneak preview</h3>
-
-        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+            <p>
+              Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="logo-gallery">
         <img src="/images/logo-google.png" alt="google" />
@@ -99,23 +124,29 @@
 
         <p>
           Available for free on the App Store. Download for Mac or iOS, sync
-          with iCloud and you’re ready to start adding to your clipboard.
+          with iCloud and <br />
+          you’re ready to start adding to your clipboard.
         </p>
-        <button class="default-button">Download for iOS</button>
-        <button class="default-button">Download for Mac</button>
+        <button class="btn">Download for iOS</button>
+        <button class="btn btn-blue">Download for Mac</button>
       </div>
     </main>
 
-    FAQs Contact Us Privacy Policy Press Kit Install Guide
-
     <footer class="footer">
-      <img src="/images/logo.svg" alt="logo" />
-      <div class="menu-footer">
-        <div class="menu-items"><a href="#"> FAQs</a></div>
-        <div class="menu-items"><a href="#"> Contact Us</a></div>
-        <div class="menu-items"><a href="#"> Privacy Policy</a></div>
-        <div class="menu-items"><a href="#"> Press Kit</a></div>
-        <div class="menu-items"><a href="#"> Install Guide</a></div>
+      <div class="wrapper3">
+        <img src="/images/logo.svg" alt="logo" />
+        <div class="menu-footer">
+          <div class="menu-items"><a href="#"> FAQs</a></div>
+          <div class="menu-items"><a href="#"> Contact Us</a></div>
+          <div class="menu-items"><a href="#"> Privacy Policy</a></div>
+          <div class="menu-items"><a href="#"> Press Kit</a></div>
+          <div class="menu-items"><a href="#"> Install Guide</a></div>
+        </div>
+        <div class="social-icons">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
       </div>
       <p>
         Challenge by
