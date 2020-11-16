@@ -225,3 +225,13 @@ img {
     margin: 0;
   }
 }
+
+@media (min-width: 1441px) {
+  html {
+    background-size: contain;
+  }
+
+  .wrapper1 {
+    justify-content: center;
+  }
+}
