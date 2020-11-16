@@ -174,3 +174,54 @@ img {
 .footer p {
   margin: 0;
 }
+
+@media (max-width: 726px) {
+  .btn {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .wrapper1 {
+    flex-direction: column;
+  }
+
+  .wrapper2 {
+    flex-direction: column;
+  }
+
+  .qualities-section-topics {
+    margin: auto;
+    min-width: 80%;
+  }
+
+  .qualities-section-image {
+    margin: 1rem;
+  }
+
+  .logo-gallery {
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: fit-content;
+    height: 400px;
+  }
+
+  .wrapper3 {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .menu-footer {
+    margin: 2rem;
+    display: block;
+    height: fit-content;
+  }
+
+  .menu-items {
+    margin: 1rem;
+  }
+
+  .social-icons {
+    position: static;
+    margin: 0;
+  }
+}
